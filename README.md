@@ -1,16 +1,30 @@
-# DevOps Project
+# DevOps Project 
 
-This is a simple DevOps project.
+This project demonstrates a simple DevOps workflow using Docker and GitHub.
 
-## Features
+##  Technologies Used
+- HTML
+- Docker
+- GitHub
+
+##  Features
 - Static web application
-- Deployed using Docker
-- Code managed using GitHub
+- Containerized using Docker
+- Version control using GitHub
 
-## How to Run
-1. Build Docker image
-2. Run container
-3. Open in browser
+##  How to Run
+1. Install Docker
+2. Build image:
+   docker build -t devops-project .
+3. Run container:
+   docker run -p 8080:80 devops-project
+4. Open browser:
+   http://localhost:8080
+
+##  Future Improvements
+- Add CI/CD pipeline using GitHub Actions
+- Deploy project online
+- Improve UI
 
 ## Author
 Tejaswini
